@@ -1,0 +1,202 @@
+#container{
+    max-width: 100%;
+    max-height: 1000px;
+    margin-top: 30px;
+  }
+  
+  #brand{
+    color:black
+  }
+  
+  #howuse{
+    color:black
+  }
+  
+  #trival{
+    color:black
+  }
+  
+  #question{
+    color:black
+  }
+
+/* 탭 전체 스타일 */
+.tabs {
+    margin-top: 50px;
+    padding-bottom: 40px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+    width: 700px;
+    height: 550px;
+    /* margin: 0 auto; */
+    
+  }
+  
+  /* 탭 스타일 */
+  .tab_item {
+    width: calc(100%/2);
+    height: 50px;
+    border-bottom: 3px solid #333333;
+    background-color: #f8f8f8;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+
+  .tab_item:hover {
+    opacity: 0.75;
+  }
+  
+  /* 라디오 버튼 UI삭제*/
+  input[name="tab_item"] {
+    display: none;
+  }
+  
+  /* 탭 컨텐츠 스타일 */
+  .tab_content {
+    display: none;
+    padding: 40px 40px 0;
+    clear: both;
+    overflow: hidden;
+  }
+  
+  
+  /* 선택 된 탭 콘텐츠를 표시 */
+  #all:checked ~ #all_content,
+  #programming:checked ~ #programming_content,
+  #design:checked ~ #design_content {
+    display: block;
+  }
+  
+  /* 선택된 탭 스타일 */
+  .tabs input:checked + .tab_item {
+    background-color: #333333;
+    color: #fff;
+  }
+
+  #tabs-holder {
+      height: 90%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      background-color: #3a3a3a;
+    }
+
+    #main-holder {
+      width: 40%;
+      height: 70%;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      background-color: white;
+      border-radius: 7px;
+      box-shadow: 0px 0px 5px 2px black;
+    }
+
+  #login-form{
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+    
+  #username-field{
+    width:420px;
+    height:37px;
+    font-size:15px;
+    border:1px solid grey;
+    border-radius: 5px;
+  }
+  #email-field{
+    width:420px;
+    height:37px;
+    font-size:15px;
+    border:1px solid grey;
+    border-radius: 5px;
+  }
+  #userid-field{
+    width:420px;
+    height:37px;
+    font-size:15px;
+    border:1px solid grey;
+    border-radius: 5px;
+  
+  }
+  #pn{
+    width:348px;
+    height:37px;
+    font-size:15px;
+    border:1px solid grey;
+    border-radius: 5px;
+  }
+  #check{
+    width: 60px;
+    height: 36px;
+    font-size: 15px;
+    border-color: white;
+    border:1px solid grey;
+    border-radius: 5px;
+  }
+  #check-btn2{
+    top:10px; left:320px;
+    position:relative;
+    width:100px;
+    height:35px;
+    font-size:13px;
+    border:2px solid grey;
+    background:white;
+    border-radius: 5px;
+  }
+  #check-btn2:hover{
+    background-color: gray;
+    color:white;
+  }
+  #checknb{
+    width:420px;
+    height:37px;
+    font-size:15px;
+    border:1px solid grey;
+    border-radius: 5px;
+  }
+  #check-btn{
+    top:10px; left:320px;
+    position:relative;
+    width:100px;
+    height:35px;
+    font-size:13px;
+    border:2px solid grey;
+    background:white;
+    border-radius: 5px;
+  }
+  #check-btn:hover{
+      background-color: gray;
+      color:white;
+  }
+  #next-btn{
+    width:100px;
+    height:35px;
+    display: block;
+    margin:auto;
+    font-size:17px;
+    border:2px solid grey;
+    background:white;
+    border-radius: 5px;
+  }
+  #next-btn:hover{
+    background-color: gray;
+      color:white;
+  }
+
+  
+#dropdown{
+  color:black
+}

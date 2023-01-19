@@ -1,0 +1,29 @@
+#id_check_bt{
+    top:10px; left:391px;
+  position:relative;
+}
+
+#brand{
+  color:black
+}
+
+#howuse{
+  color:black
+}
+
+#trival{
+  color:black
+}
+
+#question{
+  color:black
+}
+
+#dropdown{
+  color:black
+}
+
+#btn{
+  width: 500px;
+  height: 50px;
+}
